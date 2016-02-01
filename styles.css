@@ -1,1 +1,80 @@
 /* Styles for the Advanced Markup assignment. */
+nav ul li {
+	display: inline;
+}
+a.active {
+	font-weight: bold;
+}
+#sidebar {
+	width: 250px;
+	float: right;
+	background: navajowhite;
+	margin: 20px;
+	padding: 10px;
+	border: 2px solid black;
+	padding-left: 5px; 
+}
+.bio-photo {
+	float: left;
+	text-align: center;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black; 
+	padding-top: 25px;
+	padding-right: 16px;
+	padding-left: 16px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 5px;
+	width: 300px;
+}
+td {
+	padding: 5px;
+}
+.poem {
+	font-size: large;
+	line-height: 1.2;
+	font-family: arabic-indic;
+	padding: 0.1rem;
+	margin: 15px;
+	border: 5px solid #A9A9A9;
+	padding: 5px;
+	width: 500px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-left: 38px;
+	padding-left: 5px;
+	margin-right: 10px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h1 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: none;
+  font: normal 82px/normal "Anton", Helvetica, sans-serif;
+  color: rgb(112, 112, 112);
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 0 rgb(238,238,238) , 6px 6px 0 rgb(112,112,112) ;
+}
+#selected_works {
+	border: 5px solid #A9A9A9;
+	padding: 30px;
+	width: 500px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-left: 365px;
+}
